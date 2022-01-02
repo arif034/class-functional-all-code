@@ -1,10 +1,17 @@
 import "./styles.css";
-import ListRendering from "./ListRendering.js";
+import { Route, Routes } from "react-router-dom";
+import Home from "./Home.js";
+import About from "./About.js";
+import Contacts from "./Contacts.js";
 function App() {
   return (
     <div className="App">
-      Hello World
-      <ListRendering />
+      <Routes>
+        <Route exact path="/home" element={<Home />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/contacts" element={<Contacts />} />
+        <Route />
+      </Routes>
     </div>
   );
 }
