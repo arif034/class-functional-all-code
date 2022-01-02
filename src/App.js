@@ -1,9 +1,9 @@
 import "./styles.css";
-import UseEffectHook from "./UseEffectHook.js";
+import UseReducerHook from "./UseReducerHook.js";
 function App() {
   return (
     <div className="App">
-      <UseEffectHook />
+      <UseReducerHook />
     </div>
   );
 }
