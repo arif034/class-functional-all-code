@@ -1,11 +1,6 @@
 import "./styles.css";
-import Parent2 from "./Parent2.js";
 function App() {
-  return (
-    <div className="App">
-      <Parent2 />
-    </div>
-  );
+  return <div className="App">Hello World</div>;
 }
 
 export default App;
