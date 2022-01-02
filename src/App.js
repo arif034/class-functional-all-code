@@ -1,9 +1,11 @@
 import "./styles.css";
-import Counter from "./Counter.js";
-export default function App() {
+import Parent2 from "./Parent2.js";
+function App() {
   return (
     <div className="App">
-      <Counter />
+      <Parent2 />
     </div>
   );
 }
+
+export default App;
