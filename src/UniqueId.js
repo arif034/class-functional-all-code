@@ -18,4 +18,4 @@ class UniqueId extends Component {
   };
 }
 
-export default UniqueId;
+export default get;
