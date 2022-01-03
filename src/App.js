@@ -4,9 +4,6 @@ function App() {
   return (
     <div className="App">
       <CounterHOC />
-      <br />
-      <br />
-      Will work on Redux Store next
     </div>
   );
 }
